@@ -11,6 +11,14 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- font awesome link  -->
     <script src="https://kit.fontawesome.com/30f6731468.js" crossorigin="anonymous"></script>
+    <!-- google-font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:ital,wght@0,500;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- custom css   -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -18,7 +26,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">Los Angeles Convention Center</a>
+                <a class="navbar-brand h1 fw-bolder" href="#">Los Angeles Convention Center</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -158,7 +166,7 @@
                             plan</a>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 hot-package">
                     <div class="p-3 ">
                         <h2 class=" h1 fw-bolder">$800</h2>
                         <h4 class=" h3 fw-bolder mt-3">Wedding plus</h4>
@@ -189,8 +197,10 @@
 
                         <a href="#" class=" btn btn-light rounded-pill mt-2 px-5 text-primary fw-bolder "> Choose
                             plan</a>
+                        <span class="badge rounded-pill bg-danger hot-badge">Hot</span>
                     </div>
                 </div>
+
                 <div class="col-lg-3">
                     <div class="p-3">
                         <h2 class=" h1 fw-bolder">$1200</h2>
@@ -233,15 +243,9 @@
             <h1 class="text-center fw-bold my-5">Frequently Asked Questions</h1>
             <div class="d-flex ">
                 <div class="row">
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion col-lg-6 " id="accordionPanelsStayOpenExample">
 
                         <div class="accordion-item">
-
-                            <div class="col-lg-7">
-
-                            </div>
-
-
 
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -289,7 +293,34 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
                                     aria-controls="panelsStayOpen-collapseThree">
+                                    What is your refund and cancellation policy?
+
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until
+                                    the
+                                    collapse plugin adds the appropriate classes that we use to style each element.
+                                    These
+                                    classes control the overall appearance, as well as the showing and hiding via CSS
+                                    transitions. You can modify any of this with custom CSS or overriding our default
+                                    variables.
+                                    It's also worth noting that just about any HTML can go within the
+                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
                                     How do you keep budgets on track?
+
 
                                 </button>
                             </h2>
@@ -311,7 +342,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5">
+                    <div class="col-lg-6 ">
                         <img src="images/people.png" alt="">
                     </div>
                 </div>
@@ -362,20 +393,6 @@
 
     </main>
     <footer>
-        <section class="container mt-5 text-white p-5 bg-dark d-flex justify-content-around ">
-            <div class="col-12">
-                <p> © 2020 bike.All rights reserved</p>
-            </div>
-            <div class="col-12">
-                Get the App
-                <br>
-                <a href="https://apps.apple.com/us/app/spotify-new-music-and-podcasts/id324684580"> <i
-                        class="fab fa-apple"></i></a>
-                <br>
-                <a href="https://play.google.com/store/apps/details?id=com.chaldal.poached&hl=bn&gl=US"><i
-                        class="fab fa-google-play"></i></a>
-            </div>
-        </section>
 
 
     </footer>
