@@ -3,14 +3,17 @@ body{
     font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif;
 }
+
+/* package & badge */
+
 .hot-package{
     display: flex;
     align-items: center;
-    background-color: #3F87F5;
+    background-color: rgb(241, 174, 174);
     padding-left: 10px;
     /* width: 292px; */
     height: 500px;
-    color: white;
+    color: rgb(31, 30, 30);
     border-radius: 20px;
 }
 .hot-badge{
